@@ -57,6 +57,10 @@ Venue location
 
 Date of the Event (using the format "MM/DD/YYYY")
 
+![](command%20images/Concert%20This.png)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 node liri.js spotify-this-song song name
 
 Displays the following information about the selected song in your terminal/bash window
@@ -67,21 +71,41 @@ The song's name
 
 The album containing the song
 
+![](command%20images/Spotify%20This%20Song%20Yesterday.png)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 If no song is provided, the program defaults to "The Sign" by Ace of Base.
+
+![](command%20images/No%20Song%20Default.png)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 node liri.js movie-this movie name
 
 This will output the following movie information to your terminal/bash window:
 
-  Title
-  Year movie was released
-  IMDB Rating
-  Country where movie was produced
-  Language(s)
-  Plot of the movie
-  Actors in the movie
+ * Title
+ * Year movie was released
+ * IMDB Rating
+ * Country where movie was produced
+ * Language(s)
+ * Plot of the movie
+ * Actors in the movie
+
+![](command%20images/Movie%20This.png) 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 If the user does not enter a movie selection, the program outputs data for the movie 'Mr. Nobody.'
+
+![](command%20images/Movie%20This%20Default.png) 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 node liri.js do-what-it-says
 
 Runs spotify-this-song for "I Want it That Way".
+
+![](command%20images/Do%20What%20it%20Says.png) 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
